@@ -69,3 +69,5 @@ jobs:
         with:
           # Require: The version of golangci-lint to use.
           version: latest
+      - name: Run unit tests for linter job
+        run: go test ./...
