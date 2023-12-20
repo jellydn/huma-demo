@@ -133,7 +133,10 @@ func main() {
 		hooks.OnStart(func() {
 			fmt.Printf("Starting server on port %d...\n", options.Port)
 			log.Printf("Go to %s/docs for documentation", addr)
-			http.ListenAndServe(fmt.Sprintf(":%d", options.Port), router)
+			err := http.ListenAndServe(fmt.Sprintf(":%d", options.Port), router)
+			if err != nil {
+				log.Fatal(err)
+			}
 		})
 	})
 
