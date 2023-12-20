@@ -1,0 +1,19 @@
+version: "3"
+services:
+  traefik:
+    restart: unless-stopped
+    image: traefik:latest
+    command: --providers.docker=true
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+  human-demo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    labels:
+      - "traefik.http.routers.human-demo.rule=Host(`huma-demo.traefik.me`)"
+      - "traefik.http.services.huma-demo.loadbalancer.server.port=8888"
+    environment:
+      PORT: 8888

@@ -1,0 +1,19 @@
+default-group: local
+groups:
+  local:
+    generators:
+      - name: fernapi/fern-typescript-node-sdk
+        version: 0.7.2
+        output:
+          location: local-file-system
+          path: ../generated/typescript
+      - name: fernapi/fern-typescript-browser-sdk
+        version: 0.7.2
+        output:
+          location: local-file-system
+          path: ../generated/typescript-browser
+      - name: fernapi/fern-python-sdk
+        output:
+          location: local-file-system
+          path: ../generated/python
+        version: 0.6.0
