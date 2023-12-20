@@ -1,4 +1,4 @@
-POST http://localhost:8888/reviews
+POST http://0.0.0.0:8888/reviews
 {
   "rating": 10
 }
