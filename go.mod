@@ -1,6 +1,6 @@
 module github.com/jellydn/huma-demo
 
-go 1.21.5
+go 1.21.6
 
 require (
 	github.com/danielgtaylor/huma/v2 v2.2.0
