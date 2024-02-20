@@ -62,6 +62,8 @@ github.com/danielgtaylor/huma/v2 v2.2.0 h1:KJ2igq+V2Vxxp1YWUgo3kBVUGPjGMo4K7Kkhy
 github.com/danielgtaylor/huma/v2 v2.2.0/go.mod h1:2XWZajG3pUjfsNdWdnQvUXsN7c/jBCI8xGpbiAd+KRo=
 github.com/danielgtaylor/huma/v2 v2.4.0 h1:CC9+r2YA8KCwDeU3W3CI+7snt947peM7jV/icaQL61Y=
 github.com/danielgtaylor/huma/v2 v2.4.0/go.mod h1:thTZzu8B6XnYSBzppN1nqi+mmINMA/v9boIkMigRcTY=
+github.com/danielgtaylor/huma/v2 v2.5.0 h1:2rgMhwDJq9gdy69Q9l21SaGuPpHNFLx4Kr2+B8lwPxI=
+github.com/danielgtaylor/huma/v2 v2.5.0/go.mod h1:thTZzu8B6XnYSBzppN1nqi+mmINMA/v9boIkMigRcTY=
 github.com/danielgtaylor/mexpr v1.8.0 h1:Dx9nLzakvveIJ8CYhxfFdTiulMITec/Uiv6kmvACyDk=
 github.com/danielgtaylor/mexpr v1.8.0/go.mod h1:+JIK75BxmwIf+iIfXM2aLVqED3l2EMPBB8QKct8YEDs=
 github.com/danielgtaylor/mexpr v1.9.0/go.mod h1:kAivYNRnBeE/IJinqBvVFvLrX54xX//9zFYwADo4Bc8=
