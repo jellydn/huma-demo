@@ -3,7 +3,7 @@ module github.com/jellydn/huma-demo
 go 1.22.0
 
 require (
-	github.com/danielgtaylor/huma/v2 v2.5.0
+	github.com/danielgtaylor/huma/v2 v2.6.0
 	github.com/go-chi/chi/v5 v5.0.12
 )
 
