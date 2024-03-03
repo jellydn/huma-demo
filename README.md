@@ -47,7 +47,8 @@ This will display a list of targets and their descriptions, helping you navigate
 
 ## Resources
 
-- [Huma Introduction - Huma](https://huma.rocks/)
+- [Installation - Huma](https://huma.rocks/tutorial/installation/)
+- [APIs in Go with Huma 2.0](https://dgt.hashnode.dev/apis-in-go-with-huma-20)
 - [fern-api/fern: SDKs and Docs for your API](https://github.com/fern-api/fern)
 - [A CLI for REST APIs - DEV Community](https://dev.to/danielgtaylor/a-cli-for-rest-apis-part-1-104b)
 
