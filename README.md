@@ -5,6 +5,10 @@
 
 [![Exploring Huma with IT Man: A Journey Through Modern Micro-Frameworks](https://i.ytimg.com/vi/1iReyppMxXk/hqdefault.jpg)](https://www.youtube.com/watch?v=1iReyppMxXk)
 
+## 🏠 [Homepage](https://huma.rocks/)
+
+### ✨ [Demo](https://huma-demo.fly.dev/docs)
+
 ## Prerequisites
 
 Before getting started with huma-demo, make sure you have the following tools installed:
