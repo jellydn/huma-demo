@@ -52,6 +52,18 @@ This will display a list of targets and their descriptions, helping you navigate
 - [fern-api/fern: SDKs and Docs for your API](https://github.com/fern-api/fern)
 - [A CLI for REST APIs - DEV Community](https://dev.to/danielgtaylor/a-cli-for-rest-apis-part-1-104b)
 
+## Author
+
+👤 **Huynh Duc Dung**
+
+- Website: https://productsway.com/
+- Twitter: [@jellydn](https://twitter.com/jellydn)
+- Github: [@jellydn](https://github.com/jellydn)
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+
+[![kofi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/dunghd)
+[![paypal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/dunghd)
+[![buymeacoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/dunghd)
