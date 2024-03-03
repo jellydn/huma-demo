@@ -24,6 +24,8 @@ To get started with huma-demo, simply run the following command:
 make dev
 ```
 
+[![Run dev](https://i.gyazo.com/e79c264de5566902a5d8e7ff7619d59c.gif)](https://gyazo.com/e79c264de5566902a5d8e7ff7619d59c)
+
 This will start the development server and allow you to test your API locally.
 
 ## Test
@@ -32,8 +34,11 @@ To run the tests for huma-demo, you can use the following commands:
 
 ```sh
 make test
+make test-report # Run e2e tests with hurl and generate a report
 make test-coverage
 ```
+
+[![Run test](https://i.gyazo.com/2af6fbe3c5afb6cc93725dcaa5b8267f.gif)](https://gyazo.com/2af6fbe3c5afb6cc93725dcaa5b8267f)
 
 These commands will run the unit tests and generate a coverage report, respectively.
 
@@ -46,6 +51,22 @@ make help
 ```
 
 This will display a list of targets and their descriptions, helping you navigate the project.
+
+```sh
+Usage: make [target]
+
+Targets:
+  dev                Run the application in development mode
+  tidy               Update project dependencies
+  test               Run unit tests
+  test-coverage      Run unit tests with coverage
+  test-report        Run end-to-end tests and generate a report
+  view-test-report   View the generated test report
+  generate-openapi   Generate OpenAPI specification and add it to Fern
+  generate-fern      Generate Fern
+  generate-go-sdk    Generate Go SDK
+  help               Show this help message
+```
 
 ## Resources
 
