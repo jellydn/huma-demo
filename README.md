@@ -10,7 +10,6 @@ Before getting started with huma-demo, make sure you have the following tools in
 - [The Go Programming Language](https://go.dev/) (version 1.20 or higher)
 - [Bun](https://bun.sh/) - A fast all-in-one JavaScript runtime
 - [OrbStack](https://orbstack.dev/) - Fast, light, simple Docker & Linux on macOS
-- [Restish](https://rest.sh/#/) - Restish is a CLI for interacting with REST-ish HTTP APIs with some nice features built-in
 - [Hurl](https://hurl.dev/) - Run and Test HTTP Requests
 
 Make sure these tools are installed and properly configured on your system before proceeding.
