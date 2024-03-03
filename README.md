@@ -1,13 +1,13 @@
 <h1 align="center">Welcome to huma-demo 👋</h1>
 <p>
-  A modern, simple, fast & flexible micro framework for building HTTP REST/RPC APIs in Golang backed by OpenAPI 3 and JSON Schema.
+  Welcome to huma-demo, a modern, simple, fast, and flexible micro-framework for building HTTP REST/RPC APIs in Golang. It is backed by OpenAPI 3 and JSON Schema, providing a robust and standardized approach to API development.
 </p>
 
 ## Prerequisites
 
 Before getting started with huma-demo, make sure you have the following tools installed:
 
-- [The Go Programming Language](https://go.dev/)
+- [The Go Programming Language](https://go.dev/) (version 1.20 or higher)
 - [Bun](https://bun.sh/) - A fast all-in-one JavaScript runtime
 - [OrbStack](https://orbstack.dev/) - Fast, light, simple Docker & Linux on macOS
 - [Restish](https://rest.sh/#/) - Restish is a CLI for interacting with REST-ish HTTP APIs with some nice features built-in
