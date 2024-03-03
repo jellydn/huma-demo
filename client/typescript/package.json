@@ -9,6 +9,8 @@
     "url-join": "^5.0.0"
   },
   "devDependencies": {
+    "mocha": "^9.1.2",
+    "chai": "^4.3.4"
     "@types/bun": "^1.0.8",
     "typescript": "^5.3.3"
   }
