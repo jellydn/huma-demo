@@ -3,6 +3,11 @@ dev:
 	@echo "Running dev..."
 	@go run .
 
+.PHONY: client
+client:
+	@echo "Running client..."
+	@go run client/client.go
+
 # Update project dependencies
 .PHONY: tidy
 tidy:
