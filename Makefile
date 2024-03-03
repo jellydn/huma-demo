@@ -40,6 +40,7 @@ generate-openapi:
 	@restish :8888/openapi.yaml > openapi.yaml
 	@echo "Adding OpenAPI to Fern..."
 	@rm -rf .fern
+	@rm -rf fern/openapi
 	@fern init --openapi openapi.yaml
 	@fern add fernapi/fern-typescript-browser-sdk
 	@fern add fernapi/fern-python-sdk
