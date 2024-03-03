@@ -45,12 +45,6 @@ generate-openapi:
 	@fern add fernapi/fern-python-sdk
 	@fern add fernapi/fern-go-sdk
 
-.PHONY: generate-sdk-docker
-generate-sdk-docker:
-	@echo "Generating SDK..."
-	@rm -rf generated
-	@fern generate --local
-
 .PHONY: generate-sdk
 generate-sdk:
 	@echo "Generating SDK..."
@@ -69,6 +63,5 @@ help:
 	@echo "  test-report        Run end-to-end tests and generate a report"
 	@echo "  view-test-report   View the generated test report"
 	@echo "  generate-openapi   Generate OpenAPI specification and add it to Fern"
-	@echo "  generate-sdk-docker Generate SDK using Docker"
 	@echo "  generate-sdk       Generate SDK"
 	@echo "  help               Show this help message"
