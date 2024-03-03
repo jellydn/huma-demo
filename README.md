@@ -3,6 +3,8 @@
   Welcome to huma-demo, a modern, simple, fast, and flexible micro-framework for building HTTP REST/RPC APIs in Golang. It is backed by OpenAPI 3 and JSON Schema, providing a robust and standardized approach to API development.
 </p>
 
+[![Exploring Huma with IT Man: A Journey Through Modern Micro-Frameworks](https://i.ytimg.com/vi/1iReyppMxXk/hqdefault.jpg)](https://www.youtube.com/watch?v=1iReyppMxXk)
+
 ## Prerequisites
 
 Before getting started with huma-demo, make sure you have the following tools installed:
