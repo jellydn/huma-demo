@@ -2,6 +2,10 @@
   "name": "client",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "test": "mocha index.test.ts",
+    "test": "mocha index.test.ts",
+  "},
   "devDependencies": {
     "@types/bun": "latest"
   },
