@@ -29,5 +29,6 @@ COPY --from=builder /app/server .
 EXPOSE 8888
 
 # Run the server
+# Open http://huma-demo.traefik.me if you are using traefik reverse proxy with docker-compose
 CMD ["./server"]
 
