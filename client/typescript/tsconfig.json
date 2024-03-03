@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     // Enable latest features
+"include": ["index.test.ts"],
     "lib": ["ESNext"],
     "target": "ESNext",
     "module": "ESNext",
@@ -12,7 +13,7 @@
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
-    "noEmit": true,
+    "noEmit": false,
 
     // Best practices
     "strict": true,
@@ -21,7 +22,7 @@
 
     // Some stricter flags (disabled by default)
     "noUnusedLocals": false,
-    "noUnusedParameters": false,
+    "noUnusedParameters": true,
     "noPropertyAccessFromIndexSignature": false
   }
 }
