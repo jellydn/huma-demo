@@ -8,7 +8,7 @@ client:
 	@echo "Running Go client..."
 	@go run client/go/client.go
 	@echo "Running Typescript client..."
-	@cd client/typescript && bun run index.ts
+	@bun run client/typescript/index.ts
 
 # Update project dependencies
 .PHONY: tidy
@@ -39,7 +39,7 @@ view-test-report:
 .PHONY: generate-openapi
 generate-openapi:
 	@echo "Generating OpenAPI..."
-	@restish :8888/openapi.yaml > openapi.yaml
+	@curl http://localhost:8888/openapi.yaml > openapi.yaml
 	@echo "Adding OpenAPI to Fern..."
 	@rm -rf .fern
 	@rm -rf fern/openapi

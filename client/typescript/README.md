@@ -1,9 +1,9 @@
 # client
 
-To install dependencies:
+To install dependencies with [pnpm](https://pnpm.io/installation)
 
 ```bash
-bun install
+pnpm install
 ```
 
 To run:

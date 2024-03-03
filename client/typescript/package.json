@@ -2,10 +2,14 @@
   "name": "client",
   "module": "index.ts",
   "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest"
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "itman-api": "file:../../generated/typescript",
+    "qs": "^6.11.2",
+    "url-join": "^5.0.0"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+  "devDependencies": {
+    "@types/bun": "^1.0.8",
+    "typescript": "^5.3.3"
   }
 }
