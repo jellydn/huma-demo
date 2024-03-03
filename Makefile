@@ -5,8 +5,10 @@ dev:
 
 .PHONY: client
 client:
-	@echo "Running client..."
-	@go run client/client.go
+	@echo "Running Go client..."
+	@go run client/go/client.go
+	@echo "Running Typescript client..."
+	@cd client/typescript && bun run index.ts
 
 # Update project dependencies
 .PHONY: tidy
@@ -46,8 +48,16 @@ generate-openapi:
 	@fern add fernapi/fern-python-sdk
 	@fern add fernapi/fern-go-sdk
 
-.PHONY: generate-sdk
-generate-sdk:
+.PHONY: generate-go-sdk
+generate-go-sdk:
+	@echo "installing oapi-codegen..."
+	@go install github.com/deepmap/oapi-codegen/v2/cmd/oapi-codegen@latest
+	@echo "Generating Go SDK..."
+	@rm -rf sdk/sdk.go
+	@oapi-codegen -generate "types,client" -package sdk fern/openapi/openapi.yaml >sdk/sdk.go
+
+.PHONY: generate-fern
+generate-fern:
 	@echo "Generating SDK..."
 	@rm -rf generated
 	@fern generate
@@ -64,5 +74,6 @@ help:
 	@echo "  test-report        Run end-to-end tests and generate a report"
 	@echo "  view-test-report   View the generated test report"
 	@echo "  generate-openapi   Generate OpenAPI specification and add it to Fern"
-	@echo "  generate-sdk       Generate SDK"
+	@echo "  generate-fern      Generate Fern"
+	@echo "  generate-go-sdk    Generate Go SDK"
 	@echo "  help               Show this help message"
