@@ -43,6 +43,7 @@ generate-openapi:
 	@fern init --openapi openapi.yaml
 	@fern add fernapi/fern-typescript-browser-sdk
 	@fern add fernapi/fern-python-sdk
+	# Generate SDK using Docker
 	@fern add fernapi/fern-go-sdk
 
 .PHONY: generate-sdk
