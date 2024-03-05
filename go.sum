@@ -7,11 +7,15 @@ github.com/danielgtaylor/casing v1.0.0 h1:uX+PewTv0zbXeTluwRwlyPMRQEduVP9svLHpbD
 github.com/danielgtaylor/casing v1.0.0/go.mod h1:eFdYmNxcuLDrRNW0efVoxSaApmvGXfHZ9k2CT/RSUF0=
 github.com/danielgtaylor/huma/v2 v2.6.0 h1:pSENofc3vLr/48RHzgt48xwxdGFTK8hv1AkL0zch5EE=
 github.com/danielgtaylor/huma/v2 v2.6.0/go.mod h1:DHyK1k2u/UqSLgsO5dG1focxyeHg3UUkfB7tti0ZRwc=
+github.com/danielgtaylor/huma/v2 v2.7.0 h1:OmDvHqu4IWd/9Yk/si9D6k/YnBVdqlVsPn+6pfrpsdk=
+github.com/danielgtaylor/huma/v2 v2.7.0/go.mod h1:0CHjhhZd2ApZfj74Fd4esGaSMXcCK2Y9qoYPU0Cltis=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/fxamacker/cbor/v2 v2.5.0 h1:oHsG0V/Q6E/wqTS2O1Cozzsy69nqCiguo5Q1a1ADivE=
 github.com/fxamacker/cbor/v2 v2.5.0/go.mod h1:TA1xS00nchWmaBnEIxPSE5oHLuJBAVvqrtAnWBwBCVo=
+github.com/fxamacker/cbor/v2 v2.6.0 h1:sU6J2usfADwWlYDAFhZBQ6TnLFBHxgesMrQfQgk1tWA=
+github.com/fxamacker/cbor/v2 v2.6.0/go.mod h1:pxXPTn3joSm21Gbwsv0w9OSA2y1HFR9qXEeXQVeNoDQ=
 github.com/go-chi/chi v4.1.2+incompatible h1:fGFk2Gmi/YKXk0OmGfBh0WgmN3XB8lVnEyNz34tQRec=
 github.com/go-chi/chi v4.1.2+incompatible/go.mod h1:eB3wogJHnLi3x/kFX2A+IbTBlXxmMeXJVKy9tTv1XzQ=
 github.com/go-chi/chi/v5 v5.0.12 h1:9euLV5sTrTNTRUU9POmDUvfxyj6LAABLUcEWO+JJb4s=
