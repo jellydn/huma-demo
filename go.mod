@@ -1,9 +1,9 @@
 module github.com/jellydn/huma-demo
 
-go 1.22.0
+go 1.22.1
 
 require (
-	github.com/danielgtaylor/huma/v2 v2.7.0
+	github.com/danielgtaylor/huma/v2 v2.8.0
 	github.com/go-chi/chi/v5 v5.0.12
 	github.com/oapi-codegen/runtime v1.1.1
 )
