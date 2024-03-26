@@ -9,7 +9,7 @@
     "url-join": "5.0.0"
   },
   "devDependencies": {
-    "@types/bun": "1.0.8",
-    "typescript": "5.4.2"
+    "@types/bun": "1.0.11",
+    "typescript": "5.4.3"
   }
 }
