@@ -9,6 +9,8 @@ github.com/danielgtaylor/huma/v2 v2.7.0 h1:OmDvHqu4IWd/9Yk/si9D6k/YnBVdqlVsPn+6p
 github.com/danielgtaylor/huma/v2 v2.7.0/go.mod h1:0CHjhhZd2ApZfj74Fd4esGaSMXcCK2Y9qoYPU0Cltis=
 github.com/danielgtaylor/huma/v2 v2.8.0 h1:zCmRml7KLdR4W1NdXh7tJUA65ouDQ1P5yeTv4ehaJrA=
 github.com/danielgtaylor/huma/v2 v2.8.0/go.mod h1:0CHjhhZd2ApZfj74Fd4esGaSMXcCK2Y9qoYPU0Cltis=
+github.com/danielgtaylor/huma/v2 v2.14.0 h1:lRuhQQPZhePvJ4B/m4kfIUYfD8ZPy5BKq/oktLFmB50=
+github.com/danielgtaylor/huma/v2 v2.14.0/go.mod h1:OdHC/JliXtOrnvHLQTU5qV7WvYRQXwWY1tkl5rLXmuE=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
