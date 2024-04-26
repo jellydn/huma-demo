@@ -1,8 +1,13 @@
 package main
 
 import (
+	"bytes"
+	"io"
+	"net/http"
+	"os"
 	"strings"
 	"testing"
+	"time"
 
 	"github.com/danielgtaylor/huma/v2/humatest"
 )
@@ -72,4 +77,39 @@ func TestGetReviews(t *testing.T) {
 	if !strings.Contains(resp.Body.String(), `"author":"dunghd"`) {
 		t.Fatalf("Unexpected response: %s", resp.Body.String())
 	}
+}
+
+func TestMain(t *testing.T) {
+    // Capture stdout to a buffer
+    old := os.Stdout
+    r, w, _ := os.Pipe()
+    os.Stdout = w
+    
+    // Call the main function in a goroutine so it doesn't block
+    go main()
+
+    // Wait a short time for server to start
+    time.Sleep(100 * time.Millisecond)
+    
+    // Make a request to the health check endpoint
+    resp, err := http.Get("http://localhost:8888/")
+    if err != nil {
+        t.Fatalf("Health check request failed: %v", err)
+    }
+    defer resp.Body.Close()
+
+    // Verify the response
+    if resp.StatusCode != 200 {
+        t.Errorf("Health check returned status %d, expected 200", resp.StatusCode)
+    }
+    
+    // Check that expected output was written to stdout 
+    w.Close()
+    os.Stdout = old
+    var buf bytes.Buffer
+    io.Copy(&buf, r)
+    output := buf.String()
+    if !strings.Contains(output, "Starting server on port") {
+        t.Errorf("Unexpected stdout output:\n%s", output)
+    }
 }
