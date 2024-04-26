@@ -65,7 +65,7 @@ jobs:
           go-version: ${{ matrix.go }}
           cache: false
       - name: golangci-lint
-        uses: golangci/golangci-lint-action@v4
+        uses: golangci/golangci-lint-action@v5
         with:
           # Require: The version of golangci-lint to use.
           version: latest
