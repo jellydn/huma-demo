@@ -5,11 +5,11 @@
   "dependencies": {
     "form-data": "4.0.0",
     "itman-api": "file:../../generated/typescript",
-    "qs": "6.12.1",
+    "qs": "6.12.2",
     "url-join": "5.0.0"
   },
   "devDependencies": {
-    "@types/bun": "1.1.1",
-    "typescript": "5.4.5"
+    "@types/bun": "1.1.6",
+    "typescript": "5.5.3"
   }
 }
