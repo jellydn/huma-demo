@@ -3,13 +3,13 @@
   "module": "index.ts",
   "type": "module",
   "dependencies": {
-    "form-data": "4.0.0",
+    "form-data": "4.0.1",
     "itman-api": "file:../../generated/typescript",
-    "qs": "6.12.1",
+    "qs": "6.13.0",
     "url-join": "5.0.0"
   },
   "devDependencies": {
-    "@types/bun": "1.1.1",
-    "typescript": "5.4.5"
+    "@types/bun": "1.1.11",
+    "typescript": "5.6.3"
   }
 }
