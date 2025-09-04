@@ -38,7 +38,7 @@ jobs:
           go-version: "1.24.2"
 
       - name: Set up Nodejs
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
 
       - name: Install wait-on
         run: npm install -g wait-on
